@@ -6,7 +6,7 @@ This project is a part of the MS AAI-510 course in the Applied Artificial Intell
 
 ## Installation
 
-Launch Jupyter notebook and open the `FinalProjectSection5 - Team4.ipynb` file(s) from this repository. 
+Launch Jupyter notebook and open the `Final Project Section5 - Team4.ipynb` file(s) from this repository. 
 
 ## Required libraries to be installed including:
 
