@@ -37,7 +37,7 @@ Launch Jupyter notebook and open the `FinalProjectSection5 - Team4.ipynb` file(s
   
 ## Project Intro/Objective
 
-TBD
+There are an increasing number of fake jobs getting posted and job seekers are getting scammed into entering their application details into fake websites.
 
 ### Partner(s)/Contributor(s)
 
