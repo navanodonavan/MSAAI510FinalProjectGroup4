@@ -2,7 +2,7 @@
 
 This project is a part of the MS AAI-510 course in the Applied Artificial Intelligence Program at the University of San Diego (USD). 
 
-### Project Status: [In Progress]
+### Project Status: [Completed]
 
 ## Installation
 
