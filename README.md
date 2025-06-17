@@ -6,29 +6,33 @@ This project is a part of the MS AAI-510 course in the Applied Artificial Intell
 
 ## Installation
 
-Launch Jupyter notebook and open the `TBD.ipynb and TBD.ipynb` file(s) from this repository. 
-
-The `TBD.ipynb and TBD.ipynb` is the final version.
+Launch Jupyter notebook and open the `FinalProjectSection5 - Team4.ipynb` file(s) from this repository. 
 
 ## Required libraries to be installed including:
 
-    import math
-    import os
-    import librosa
-    import librosa.display
-    import numpy as np
-    import pandas as pd
-    from sklearn.preprocessing import LabelEncoder
-    from sklearn.model_selection import train_test_split
+    import re
     import torch
-    import torch.nn as nn
-    import torch.optim as optim
-    from torch.utils.data import DataLoader, TensorDataset
+    import numpy as np
+    from tqdm import tqdm
+    from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
+    from sklearn.decomposition import LatentDirichletAllocation
+    from sklearn.ensemble import RandomForestClassifier
+    from sklearn.model_selection import train_test_split
     from sklearn.metrics import classification_report, confusion_matrix
-    import seaborn as sns
+    from sklearn.metrics import precision_recall_curve, average_precision_score
+    from scipy.sparse import hstack
+    from transformers import AutoTokenizer, AutoModel
     import matplotlib.pyplot as plt
-    from sklearn.preprocessing import StandardScaler
+    import seaborn as sns
     from collections import Counter
+    from wordcloud import WordCloud
+    from torch.utils.data import Dataset, DataLoader
+    from transformers import DistilBertForSequenceClassification
+    from torch.optim import AdamW
+    from transformers import Trainer, TrainingArguments
+    from datasets import load_metric
+    from torch.nn import CrossEntropyLoss
+    from torch import tensor
 
   
 ## Project Intro/Objective
